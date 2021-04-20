@@ -1,0 +1,70 @@
+@media only screen and (max-width : 1200px) {
+  .about-section {
+    background-image: none;
+  }
+
+  .navbar ul li {
+    font-size: 14px;
+    margin-bottom: 10px
+  }
+
+  .navbar-nav li a {
+    text-align: center;
+  }
+
+  .navbar i {
+    color: #333333;
+    padding-top: 5px;
+  }
+
+  .the_plan {
+    transform: scale(1);
+  }
+
+  .frstplan,
+  .scndplan {
+    margin-bottom: 100px
+  }
+
+  .work-section .navbar-brand {
+    color: #FFF;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .the_plan {
+    transform: scale(1);
+    margin: 0px;
+  }
+
+  .frstplan,
+  .scndplan,
+  .premium {
+    margin-bottom: 100px
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .home-section h1 {
+    font-size: 38px
+  }
+
+  .home-section span {
+    font-size: 17px
+  }
+
+  .the_plan {
+    transform: scale(1);
+    margin: 30px
+  }
+  .testmonial-section .row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.r-p{padding-left: 30px;}
+.testmonial-item img{
+  padding-top: 10px
+}
+}
+
+@media only screen and (max-width : 480px) {}
